@@ -15,6 +15,7 @@ type IslandElement struct {
 	OnlineMemberCount int    `json:"onlineMemberCount"` // 在线成员数
 	DefaultChannelId  string `json:"defaultChannelId"`  // 默认进入频道
 	SystemChannelId   string `json:"systemChannelId"`   // 系统消息频道
+	OwnerDodoSourceId string `json:"ownerDodoSourceId"` // 群主DoDoID
 }
 
 // GetIslandInfoReq 获取群信息 request
